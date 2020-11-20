@@ -56,8 +56,8 @@ body {
     position: fixed; 
     top: 0px;
     margin: auto;
-    /* background-color: gray; */
-    /* opacity: 1; */
+    background-color: gray;
+    opacity: 1;
     z-index: 2;
 }
 
@@ -99,6 +99,8 @@ nav {
     padding-top: 5px;
     animation: 3s ease-out 0s 1 popIn;
     z-index: 2;
+    /* background-color: gray;
+    opacity: 1; */
 }
 
 a {
@@ -127,11 +129,11 @@ hr {
     z-index: 2;
     animation: 3s ease-out 0s 1 popIn;
 }
-
-#nav_wrapper div:hover {
+/* 
+#nav:hover {
     background-color: gray;
     opacity: 1;
-}
+} */
 
 .menu_item {
     text-align: center;
@@ -144,6 +146,8 @@ hr {
     padding-top: 8px;
     animation: 3s ease-out 0s 1 popIn;
     z-index: 2;
+    /* background-color: gray;
+    opacity: 1; */
 }
 
 /* .menu_item:hover {
@@ -217,7 +221,7 @@ hr {
     width: 45px;
     max-width: 45px;
     height: auto;
-    padding-top: 50px;
+    padding-top: 65px;
 }
 
 #article_wrapper {
