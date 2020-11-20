@@ -166,7 +166,7 @@ hr {
 #main {
     font-family: "Bluu Next";
     position: relative;
-    /* top: 150px; */
+    top: 150px;
     width: 700px; 
     /* left: 25%; */
     text-align: center;
@@ -242,8 +242,7 @@ hr {
 }
 
 #left_article img, #middle_article img, #right_article img {
-    /* width: 360px; */
-    width: 95%;
+    width: 360px;
     height: 210px;
     object-fit: cover;
     margin: auto;
@@ -380,4 +379,19 @@ hr {
 #explore:hover {
     background-color: #514A92;
 }
+/* #left_article img {
+    padding-left: 80px;
+}
+#right_article img {
+    margin-right: 80px;
+}  */
 
+/* #middle_article {
+    display: inline-block;
+    width: 33%;
+}
+
+#right_article {
+    display: inline-block;
+    width: 33%;
+} */
