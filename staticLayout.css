@@ -30,12 +30,8 @@ body {
 
 
 #background {
-    background-image: linear-gradient(rgba(16,20,28, .1), rgba(16,20,28, .4), rgba(16,20,28,1)), url("./assets/harry_potter_cover_big.jpg");
-    /* background-position-y: -700px; */
+    background-image: linear-gradient(rgba(16,20,28, .2), rgba(16,20,28, .4), rgba(16,20,28,1)), url("./assets/harry_potter_cover_big_final.jpg");
     width: 100vw;
-    /* height: auto; */
-    /* max-width: 100%;    */
-    /* max-height: 100vh; */
     min-height: 900px;
     height: 100vh;
     background-color: #1C1D26;
@@ -51,8 +47,6 @@ body {
 
 #nav_wrapper {
     width: 90%;
-    /* background-color: transparent;
-    transition: background-color 0.3s ease-in 0s; */
     position: fixed; 
     top: 0px;
     margin: auto;
@@ -76,8 +70,6 @@ body {
     left: 86%;
     text-align: center;
     animation: 3s ease-out 0s 1 popIn;
-    /* -webkit-filter: drop-shadow(0 0 5px #222);
-    filter:         drop-shadow(0 0 5px #222);  */
 }
 #login:hover {
     background-color: #514A92;
@@ -99,22 +91,12 @@ nav {
     padding-top: 5px;
     animation: 3s ease-out 0s 1 popIn;
     z-index: 2;
-    /* background-color: gray;
-    opacity: 1; */
 }
 
 a {
     text-decoration: none;
     color: white;
 }
-/* 
-hr {
-    color: rgba(255,255,255, .2);
-    position: absolute;
-    top: 300px; 
-    z-index: 2;
-    animation: 3s ease-out 0s 1 popIn;
-} */
 
 #nav_wrapper img {
     margin: auto;
@@ -129,11 +111,6 @@ hr {
     z-index: 2;
     animation: 3s ease-out 0s 1 popIn;
 }
-/* 
-#nav:hover {
-    background-color: gray;
-    opacity: 1;
-} */
 
 .menu_item {
     text-align: center;
@@ -146,21 +123,8 @@ hr {
     padding-top: 8px;
     animation: 3s ease-out 0s 1 popIn;
     z-index: 2;
-    /* background-color: gray;
-    opacity: 1; */
 }
 
-/* .menu_item:hover {
-    border-bottom: 2px solid #6B63B5;
-} */
-
-/* .down img{
-    width: 10px;
-} */
-/* #spacing {
-    width: 100%;
-    height: 600px;
-} */
 #main_wrapper {
     position: absolute;
     top: 150px;
@@ -170,9 +134,7 @@ hr {
 #main {
     font-family: "Bluu Next";
     position: relative;
-    /* top: 150px; */
     width: 700px; 
-    /* left: 25%; */
     text-align: center;
     font-size: 1.8em;
     margin: auto;
@@ -198,7 +160,6 @@ hr {
 
 #read_more {
     width: 40%;
-    /* height: 40px; */
     background-color: #6B63B5;
     font-family: sofia-pro, sans-serif;
     font-style: normal;
@@ -228,19 +189,15 @@ hr {
     position: relative;
     top: 900px;
     height: 100vh;
-    /* width: 100vw; */
     width: 90%;
     max-width: 1400px;
     margin: auto;
 }
 
 #next_section {
-    /* background-color: #10141C; */
-    /* position: absolute; */
     display: flex;
     justify-content: space-evenly;
     z-index: 0;
-    /* width: 80%; */
 }
 
 #left_article, #middle_article, #right_article {
@@ -248,19 +205,15 @@ hr {
     width: 30%;
     height: 400px;
     padding-top: 100px;
-    /* text-align: left; */
-    /* background-color: red; */
+
 }
 
 #left_article img, #middle_article img, #right_article img {
-    /* width: 360px; */
     width: 95%;
     height: 210px;
     object-fit: cover;
     margin: auto;
     display: block;
-    /* padding: 40px; */
-    /* margin: 40px 40px 20px 60px; */
 }
 
 .article_title {
@@ -277,28 +230,20 @@ hr {
     font-size: 1.9em;
     width: 75%;
     margin: auto;
-    /* left: 10%; */
 }
 
-/* #background_section {
-    height: 450px;
-    position: static;
-    z-index: 0;
-} */
 #article_nav {
     position: relative;
     display: flex;
     flex-direction: row;
     width: 70vw;
     margin: auto;
-    /* margin-left: 15vw; */
     top: 0;
 }
 
 #article_nav img {
     position: relative;
     width: 54px;
-    /* left: 80px; */
 }
 .white_dot {
     height: 6px;
@@ -336,12 +281,9 @@ hr {
 
 #christmas {
     position: absolute;
-    /* height: 400px; */
     top: 1550px;
     background-color: lightgray;
     width: 100vw;
-    /* float: right;
-    background: linear-gradient( rgba(255,255,255,0), rgba(255,255,255,1)), url("./assets/Left_Promo-Module_Normal-Width_xmasandhedwig_result.jpg") */
 }
 
 #christmas_text {
@@ -353,8 +295,7 @@ hr {
     text-align: right;
 }
 #christmas_text p {
-    font-size: .23em;
-    /* width: 80%; */
+    font-size: .24em;
     text-align: right;
     margin: auto;
     font-family: sofia-pro, sans-serif;
@@ -365,7 +306,6 @@ hr {
 
 #christmas img {
     position: absolute;
-    /* top: -200px; */
     right: 0px;
     -webkit-mask-image:-webkit-gradient(linear, right bottom, left bottom, from(rgba(16,20,28,1)), to(rgba(16,20,28,0)));
     mask-image: linear-gradient(to bottom, rgba(16,20,28,1), rgba(16,20,28,0));
@@ -373,8 +313,7 @@ hr {
 }
 
 #explore {
-    width: 60%;
-    /* height: 40px; */
+    width: 65%;
     background-color: #6B63B5;
     font-family: sofia-pro, sans-serif;
     font-style: normal;
